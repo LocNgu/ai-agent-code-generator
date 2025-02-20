@@ -1,0 +1,20 @@
+[project]
+name = "python-poetry-env"
+version = "0.1.0"
+description = "manages pyenv-poetry environments"
+authors = [
+    {name = "tecno",email = "tecno-pro@tuta.io"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+openai = "^1.63.2"
+
